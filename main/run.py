@@ -1,6 +1,6 @@
 from flask import Flask
 from config.config_reader import ConfigReader
-from api.user import *
+from api.user_api import *
 
 app = Flask(__name__)
 app.register_blueprint(users_api)
